@@ -1,9 +1,11 @@
-import React from 'react'
+"use client";
 
-const Meeting = ({params}: {params: {id: string}}) => {
-  return (
-    <div>Meeting Room #{params.id}</div>
-  )
-}
+import { useUser } from "@clerk/nextjs";
+import React from "react";
 
-export default Meeting
+const Meeting = ({ params }: { params: { id: string } }) => {
+  const { user, isLoaded } = useUser();
+  return <main className=""></main>;
+};
+
+export default Meeting;
