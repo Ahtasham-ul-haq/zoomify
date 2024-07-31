@@ -36,7 +36,7 @@ const CallList = ({ type }: { type: "upcoming" | "ended" | "recordings" }) => {
       case "recordings":
         return "No Recordings";
       case "upcoming":
-        return "No Upcoming Call";
+        return "No Upcoming Calls";
       default:
         return "";
     }
