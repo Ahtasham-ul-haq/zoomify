@@ -86,6 +86,10 @@
   color: white;
 }
 
+.cl-internal-4q8p0o > :not(:first-of-type) {
+  display: none;
+}
+
 /* =============================== */
 
 @layer utilities {
