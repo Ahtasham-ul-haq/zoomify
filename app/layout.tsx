@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Meet",
+  title: "Flockit",
   description: "An online meeting app",
   icons: {
     icon: "/icons/logo.svg",
@@ -28,7 +28,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: "/icons/logo.svg",
+            logoImageUrl: "/icons/logo2.svg",
             socialButtonsVariant: "iconButton",
           },
           variables: {

@@ -15,13 +15,13 @@ const Navbar = () => {
           height={32}
           className="max-sm:size-10"
         />
-        <p className="text-[26px] font-extrabold text-white max-sm:hidden">
+        <p className="text-[26px] font-extrabold text-white max-sm:hidden uppercase">
           Flockit
         </p>
       </Link>
       <div className="flex-between gap-5">
         <SignedIn>
-          <UserButton afterSignOutUrl="/" />
+          <UserButton />
         </SignedIn>
         <MobileNav />
       </div>
